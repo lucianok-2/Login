@@ -1,0 +1,26 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary, .btn-secondary, .btn-info {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.lead {
+    color: #6c757d;
+}

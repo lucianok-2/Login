@@ -1,0 +1,21 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,88 @@
+/* Estilos generales para la página */
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff; /* Color azul de Bootstrap */
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-item .btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Estilo para los botones */
+.navbar-nav .nav-item .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.navbar-nav .nav-item .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.navbar-nav .nav-item .btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.navbar-nav .nav-item .btn-success:hover {
+    background-color: #218838;
+}
+
+.navbar-nav .nav-item .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.navbar-nav .nav-item .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Página Home */
+#homePage {
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+/* Estilo para los formularios */
+form {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+form .form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+form .form-floating {
+    margin-bottom: 15px;
+}
+
+/* Botón de registro */
+form button {
+    background-color: #28a745;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: #218838;
+}

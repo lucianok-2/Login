@@ -1,0 +1,11 @@
+#loggedInHome, #nonLoggedInHome {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#loggedInHome button, #nonLoggedInHome button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
